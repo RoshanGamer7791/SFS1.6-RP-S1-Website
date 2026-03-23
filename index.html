@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>SFS 1.6 RP</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      padding: 24px;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+
+      color: #e6e9ee;
+      font-family: Roboto, Helvetica, Arial, sans-serif;
+    }
+
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+
+      background:
+        linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.8)),
+        url("1771683289903.png_2.png") center / cover no-repeat;
+
+      filter: blur(10px);
+      transform: scale(1.05);
+
+      z-index: -1;
+    }
+
+    h1 {
+      margin: 0 0 6px 0;
+      font-size: 22px;
+      font-weight: 600;
+    }
+
+    p, .p {
+      margin: 0 0 20px 0;
+      color: white;
+      font-size: 14px;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: #151a21;
+      border: 1px solid #232a34;
+      border-radius: 6px;
+      overflow: hidden;
+      font-size: 14px;
+    }
+
+    th, td {
+      padding: 10px 12px;
+      text-align: left;
+      border-bottom: 1px solid #232a34;
+    }
+
+    th {
+      color: #9aa3ad;
+      font-weight: 500;
+      background: #12161d;
+    }
+
+    tr:last-child td {
+      border-bottom: none;
+    }
+
+    .tag {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 999px;
+      font-size: 12px;
+      background: #232a34;
+      color: #cbd3dd;
+    }
+
+    .firstrecord {
+        color: gold;
+        font-weight: 600;
+    }
+
+    h2 {
+      background: rgba(0, 0, 0, 0.5);
+      width: 100%;
+      text-align: center;
+      border-radius: 8000px;
+    }
+
+    #launch-records, .card {
+      padding: 20px 20px;
+      border: 3px gray solid;
+      background: rgba(0, 0, 0, 0.15);
+      border-radius: 20px;
+    }
+    .card {
+      margin-bottom: 4px;
+    }
+
+    .footer {
+      padding: 50px;
+    }
+
+    .card-title {
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+
+    .info {
+      background: rgba(60, 120, 255, 0.8);
+      color: white;
+    }
+
+    .warning {
+      background: rgba(255, 170, 0, 0.9);
+      color: black;
+    }
+
+    .warning p {
+      color: black;
+    }
+
+    .danger {
+      background: rgba(255, 60, 60, 0.95);
+      color: white;
+    }
+    
+    button {
+      padding: 50px 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div id="announcements"></div>
+    <h1>SFS 1.6 RP</h1>
+    <p>Current agencies and companies participating in the roleplay.</p>
+    <p>Most companies haven't disclosed if they are government or private so please tell me if you are a government or private agency.</p>
+    <div class="card">
+      <button><a href="https://newgenesistechtree.my.canva.site/">tech tree</a></button>
+    </div>
+    <table class="card">
+        <thead>
+            <tr>
+            <th>Name</th>
+            <th>Owner</th>
+            <th>Type</th>
+            <th>Prestige (cosmetic)</th>
+            <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+    <h2>Launch record</h2>
+    <main id="launch-records">
+    </main>
+    <h2>Rules:</h2>
+    <div class="card">
+    <p>You must do flybys before orbits, and orbits before landings. Unless its phobos/deimos or captured asteroid. though there are exceptions</p>
+    <p>If you already did a full flyby, orbit, and landing of a planet of the same tier as the one you're traveling to you can skip to a landing.</p>
+    <p>Tiers: Moon: tier 1, Mars + Venus: tier 2, Jupiter + Saturn: Tier 3, mercury: tier 4, uranus and neptune: tier 5, all other outer planets: tier 6</p>
+    <p>You need LES for crewed flights.</p>
+    <p>To upgrade comms you need to send a commms satellite there</p>
+    <p>No unrealistic rocket proportions (for example large fairings, and rockets that shouldn't fly)</p>
+    <p>You can't do crewed orbits or further until you do a crewed suborbital launch.</p>
+    <p>You can't randomly launch rockets to pluto if you haven't even gone interplanetary, far interplanetary, or even just going to orbit</p>
+    <p>BP editing is allowed just don't BP edit abuse. You can use heat on for creative use in the bp editing files but only for stuff that needs clipped engines like custom LES's.</p>
+    <p>Collaboration is allowed!</p>
+    <p>Please include a few screenshots of your launches or we can't verify it happened</p>
+    <p>Most of the time you have to do unmanned events before manned events like going to the moon you have to do it unmanned first and fully finish the unmanned version</p>
+    <p>You can launch a lot/day</p>
+<p>Every launch must have a clear purpose (testing, research, mission goals, or progression). Purely random or empty launches are not allowed.</p>
+
+<p>Please follow the tech tree</p>
+
+<p>Missions must scale realistically. Small progression steps are required (for example: LEO → HEO → lunar orbit → landing).</p>
+
+<p>Mission feasibility matters. Overly far-fetched missions may be ruled as failures, while realistic step-up missions are more likely to succeed.</p>
+
+<p>Rejected launches aren't strikes but ssdcat or roshan can give strikes if it seems widly out of the rules. and if you get 3 strikes your kicked</p>
+</div>
+    <h2>Whats Prestige?</h2>
+    <div class="card">
+    <p>Prestige is a cosmetic score to measure how much novel things your program has done.</p>
+    <p>You get 2 prestige for first manned events.</p>
+    <p>You get 1 prestige for first unmanned events.</p>
+    <p>You get 0.25 prestige for first uncontrollable unmanned events (though if a unmanned probe already did what your uncontrollable craft reached then it dosen't count)</p>
+    </div>
+    <h2>Claims</h2>
+    <div class="card">
+    <p>
+    If you land on a celestial body after completing the required progression
+    (orbit → flyby → landing),
+    you may claim up to 50% ownership of that body.
+    For captured asteroids, Phobos, and Deimos, a direct landing is sufficient.
+
+    Claim percentage scales with base size and permanence.
+    Trading of territorial claims is allowed.
+
+    If an agency controls more than 80% of a moon or planet
+    (excluding Phobos, Deimos, and captured asteroids),
+    they may temporarily launch from that body by changing the Space Center settings file.
+    After the launch, the Space Center must be reverted back to Earth.
+
+    You must also rebuild infrastructure so at first you only have suborbital tech on that, etc.
+    </p>
+    </div>
+    <h2>Relations</h2>
+    <section id="relations" class="card"></section>
+    <h2>Communication power</h2>
+    <section id="comms" class="card"></section>
+    <div class="card">
+    <h3>You would have to roleplay that you can't control the spacecraft if you lose comms. If you launched your rocket before this was added then this dosen't apply</h3>
+    <p>Normal comms: Up to HEO</p>
+    <p>Lunar grade comms: Earth's entire SOI</p>
+    <p>Interplanetary: Ceres to venus</p>
+    <p>Maxed out: Jupiter to mercury</p>
+    <p>Why isn't there higher levels? You can have ground antennas to amplify them.</p>
+    </div>
+    <h2 class="footer">1.6 Roleplay [2025-2026]: Run by Roshan and ssdcat. Rocket in the background by Roshan.</h2>
+  </div>
+<script>
+const BULLETIN_URL =
+  "https://raw.githubusercontent.com/ssdcatlabs/SFS1.6RoleplayManagerConfigs/main/board.json";
+
+async function loadAnnouncements() {
+  try {
+    const res = await fetch(BULLETIN_URL);
+    if (!res.ok) throw new Error("Failed to fetch bulletin board");
+
+    const data = await res.json();
+    const container = document.getElementById("announcements");
+    container.innerHTML = "";
+
+    for (const title in data) {
+      const announcement = data[title];
+
+      const card = document.createElement("div");
+      card.className = `card ${announcement.status.toLowerCase()}`;
+
+      const heading = document.createElement("div");
+      heading.className = "card-title";
+      heading.textContent = title;
+
+      const text = document.createElement("p");
+      text.textContent = announcement.text;
+
+      card.appendChild(heading);
+      card.appendChild(text);
+      container.appendChild(card);
+    }
+  } catch (err) {
+    console.error(err);
+    document.getElementById("announcements").textContent =
+      "Failed to load announcements.";
+  }
+}
+
+loadAnnouncements();
+
+const LAUNCH_RECORDS_URL =
+  "https://raw.githubusercontent.com/ssdcatlabs/newgenesisconfigs/main/LaunchRecords.json";
+
+async function loadLaunchRecords() {
+  try {
+    const res = await fetch(LAUNCH_RECORDS_URL);
+    if (!res.ok) throw new Error("Failed to fetch launch records");
+
+    const data = await res.json();
+    const records = data.Launch_Records;
+
+    const container = document.getElementById("launch-records");
+    container.innerHTML = "";
+
+    records.forEach((r, index) => {
+      const p = document.createElement("p");
+
+      const launchNumber = index + 1;
+      const year = Math.floor(index / 6) + 1;
+
+      const isFirst =
+        r.event.toLowerCase().includes("first") &&
+        !r.event.toLowerCase().includes("for ");
+
+      if (isFirst) p.classList.add("firstrecord");
+
+      p.textContent =
+        `Launch #${launchNumber} | ` +
+        `${r.event} | ` +
+        `${r.who} | ` +
+        `Year ${1957+year}`;
+
+      container.appendChild(p);
+    });
+  } catch (err) {
+    console.error(err);
+    document.getElementById("launch-records").textContent =
+      "Failed to load launch records.";
+  }
+}
+
+loadLaunchRecords();
+const RELATIONS_URL =
+  "https://raw.githubusercontent.com/ssdcatlabs/newgenesisconfigs/main/Relations.json";
+
+async function loadRelations() {
+  const res = await fetch(RELATIONS_URL);
+  const text = await res.text();
+
+  if (!text.trim().startsWith("{")) {
+    console.error("Relations JSON invalid:", text.slice(0, 200));
+    throw new Error("Relations response is not JSON");
+  }
+
+  const data = JSON.parse(text);
+  const relations = data.Relations;
+
+  const container = document.getElementById("relations");
+  container.innerHTML = "";
+
+  for (const rel of relations) {
+    const h3 = document.createElement("h3");
+    h3.textContent = rel.name;
+
+    const p = document.createElement("p");
+    p.textContent = rel.what;
+
+    const membersLabel = document.createElement("small");
+    membersLabel.textContent = "Members:";
+
+    container.appendChild(h3);
+    container.appendChild(p);
+    container.appendChild(membersLabel);
+    container.appendChild(document.createElement("br"));
+
+    const members = rel.who.split(",").map(m => m.trim());
+
+    for (const m of members) {
+      const sm = document.createElement("small");
+      sm.textContent = m;
+      container.appendChild(sm);
+      container.appendChild(document.createElement("br"));
+    }
+  }
+}
+
+loadRelations().catch(err => {
+  document.getElementById("relations").textContent =
+    "Failed to load relations.";
+  console.error(err);
+});
+
+const AGENCIES_URL =
+  "https://raw.githubusercontent.com/ssdcatlabs/newgenesisconfigs/main/SpaceAgencyConfigs.json";
+
+async function loadAgencies() {
+  const res = await fetch(AGENCIES_URL);
+  const text = await res.text();
+
+  if (!text.trim().startsWith("{")) throw new Error("Invalid agency JSON");
+
+  const data = JSON.parse(text);
+  const agencies = data.Space_Agencies;
+
+  const tbody = document.querySelector("table tbody");
+  tbody.innerHTML = "";
+
+  for (const a of agencies) {
+    const tr = document.createElement("tr");
+
+    const tdName = document.createElement("td");
+    tdName.textContent = a.name;
+
+    const tdOwner = document.createElement("td");
+    tdOwner.textContent = a.owner;
+
+    const tdType = document.createElement("td");
+    tdType.textContent = a.type;
+
+    const tdPrestige = document.createElement("td");
+    tdPrestige.textContent = a.prestige;
+    if (Number(a.prestige) >= 13) tdPrestige.classList.add("firstrecord");
+
+    const tdStatus = document.createElement("td");
+    const tag = document.createElement("span");
+    tag.className = "tag";
+    tag.textContent = a.status;
+    tdStatus.appendChild(tag);
+
+    tr.appendChild(tdName);
+    tr.appendChild(tdOwner);
+    tr.appendChild(tdType);
+    tr.appendChild(tdPrestige);
+    tr.appendChild(tdStatus);
+
+    tbody.appendChild(tr);
+  }
+
+  const comms = document.getElementById("comms");
+  comms.innerHTML = "";
+
+  for (const a of agencies) {
+    const p = document.createElement("p");
+    p.textContent = `${a.owner}: ${a.comms}`;
+    comms.appendChild(p);
+  }
+}
+
+loadAgencies().catch(console.error);
+</script>
+</body>
+</html>
