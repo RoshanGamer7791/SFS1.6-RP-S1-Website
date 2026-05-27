@@ -1,0 +1,132 @@
+    body {
+      margin: 0;
+      padding: 24px;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+
+      color: #e6e9ee;
+      font-family: Roboto, Helvetica, Arial, sans-serif;
+    }
+
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+
+      background:
+        linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.8)),
+        url("https://raw.githubusercontent.com/RoshanGamer7791/SFS1.6-RP-S1-Website/main/background2.png") center / cover no-repeat;
+
+      filter: blur(10px);
+      transform: scale(1.05);
+
+      z-index: -1;
+    }
+
+    h1 {
+      margin: 0 0 6px 0;
+      font-size: 22px;
+      font-weight: 600;
+    }
+
+    p, .p {
+      margin: 0 0 20px 0;
+      color: white;
+      font-size: 14px;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: #151a21;
+      border: 1px solid #232a34;
+      border-radius: 6px;
+      overflow: hidden;
+      font-size: 14px;
+    }
+
+    th, td {
+      padding: 10px 12px;
+      text-align: left;
+      border-bottom: 1px solid #232a34;
+    }
+
+    th {
+      color: #9aa3ad;
+      font-weight: 500;
+      background: #12161d;
+    }
+
+    tr:last-child td {
+      border-bottom: none;
+    }
+
+    .tag {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 999px;
+      font-size: 12px;
+      background: #232a34;
+      color: #cbd3dd;
+    }
+
+    .firstrecord {
+        color: gold;
+        font-weight: 600;
+    }
+
+    h2 {
+      background: rgba(0, 0, 0, 0.5);
+      width: 100%;
+      text-align: center;
+      border-radius: 8000px;
+    }
+
+    #launch-records, .card {
+      padding: 20px 20px;
+      border: 3px gray solid;
+      background: rgba(0, 0, 0, 0.15);
+      border-radius: 20px;
+    }
+    .card {
+      margin-bottom: 4px;
+    }
+
+    .footer {
+      padding: 50px;
+    }
+
+    .card-title {
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+
+    .info {
+      background: rgba(60, 120, 255, 0.8);
+      color: white;
+    }
+
+    .warning {
+      background: rgba(255, 170, 0, 0.9);
+      color: black;
+    }
+
+    .warning p {
+      color: black;
+    }
+
+    .danger {
+      background: rgba(255, 60, 60, 0.95);
+      color: white;
+    }
+    
+    button {
+      padding: 50px 20px;
+    }
